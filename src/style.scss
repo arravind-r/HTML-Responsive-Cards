@@ -1,10 +1,116 @@
-/* Common */
+/* CSS Styling */
 
-html, body{
-    margin: 0;
-    padding: 0;
+/* Common */
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background: #f2f2f2;
+body {
+  background: #f2f2f2;
+}
+
+/* Headings */
+.container {
+  padding: 2rem 4rem;
+
+  h1 {
+    color: #014eff;
+  }
+
+  h3 {
+    color: #444444;
+    margin-bottom: 3rem;
+  }
+
+  h1,
+  h3 {
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+/* Image Card Section */
+/* Card Style One */
+.img-card-sec {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .card {
+    width: 31.5%;
+    margin: 20px auto;
+    background: #ffffff;
+  }
+
+  .card-one {
+    box-shadow: 0 0 6px 2px rgba(184, 184, 184, 0.04);
+    border-radius: 6px;
+
+    a img {
+      width: 100%;
+      border-radius: 6px 6px 0 0;
+    }
+
+    .content-sec {
+      display: flex;
+      flex-direction: column;
+      padding: 0.8rem 1rem;
+
+      a {
+        text-decoration: none;
+        h4 {
+          font-size: 18px;
+          margin: 0.6rem 0 0 0;
+          color: #222222;
+        }
+
+        & :hover {
+          color: #014eff;
+        }
+      }
+
+      p {
+        color: #8a8a8a;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .card-two {
+    box-shadow: 0 0 6px 2px rgba(184, 184, 184, 0.04);
+    border-radius: 6px;
+
+    a img {
+      width: 100%;
+      border-radius: 6px 6px 0 0;
+    }
+
+    .content-sec {
+      display: flex;
+      flex-direction: column;
+      padding: 0.8rem 1rem;
+
+      a {
+        text-decoration: none;
+        h4 {
+          font-size: 18px;
+          margin: 0.6rem 0 0 0;
+          color: #222222;
+        }
+
+        & :hover {
+          color: #014eff;
+        }
+      }
+
+      p {
+        color: #8a8a8a;
+        line-height: 30px;
+      }
+    }
+  }
 }
